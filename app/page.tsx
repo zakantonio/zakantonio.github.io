@@ -46,9 +46,14 @@ export default function Home() {
 
                 <p className="leading-relaxed">
                     Let&apos;s connect! You can reach me at{' '}
-                    <Link href="mailto:antoniozaccaria.work@gmail.com" className="text-foreground hover:underline">
+                    <Link
+                        href="mailto:antoniozaccaria.work@gmail.com"
+                        className="text-lg text-blue-500 font-semibold hover:underline"
+                    >
                         antoniozaccaria.work@gmail.com
                     </Link>
+
+
                 </p>
             </div>
 
