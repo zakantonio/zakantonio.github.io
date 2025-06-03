@@ -4,6 +4,13 @@ import Link from "next/link";
 export default function ProjectsPage() {
   const projects = [
     {
+      title: "Flutter RAG OpenAI",
+      emoji: "🔍",
+      description: "A simple demo of a Flutter application that implements Retrieval-Augmented Generation (RAG) using OpenAI's APIs.",
+      github: "https://github.com/zakantonio/flutter-rag-openai",
+      tech: ["Flutter", "OpenAI", "RAG", "Vector Stores"],
+    },
+    {
       title: "Jaison",
       emoji: "📄",
       description: "Jaison is a platform that leverages multimodal LLMs to extract structured information from document images.",
