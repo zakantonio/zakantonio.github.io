@@ -4,6 +4,13 @@ import Link from "next/link";
 export default function ProjectsPage() {
   const projects = [
     {
+      title: "Python RAG with Langchain",
+      emoji: "🔍",
+      description: "Retrieval Augmented Generation (RAG) chatbot system that allows you to ask questions about your documents using local LLM models (Ollama) or cloud models (OpenRouter).",
+      github: "https://github.com/zakantonio/python-rag-langchain",
+      tech: ["Python", "LangChain", "Ollama", "OpenRouter", "RAG", "Gradio"],
+    },   
+    {
       title: "Flutter RAG OpenAI",
       emoji: "🔍",
       description: "A simple demo of a Flutter application that implements Retrieval-Augmented Generation (RAG) using OpenAI's APIs.",
